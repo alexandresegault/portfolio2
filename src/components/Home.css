@@ -98,7 +98,7 @@ h1 {
 
 .project-box {
   width: 600px;
-  box-shadow: 0px 0px 20px rgb(134, 134, 134);
+
   height: 350px;
   border-radius: 5px;
 }
@@ -119,4 +119,22 @@ h1 {
 .minimal {
   background: url("../Images/imgMinimal.png") no-repeat center center;
   background-size: cover;
+}
+.calculatrice {
+  background: url("../Images/calculatorProject.png") no-repeat center center;
+  background-size: contain;
+}
+
+.calculatrice:hover,
+.minimal:hover,
+.froggyDays:hover,
+.shakeItYourself:hover,
+.wargame:hover {
+  box-shadow: 0px 0px 20px rgb(134, 134, 134);
+  transition: 0.4s all;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }

@@ -1,9 +1,9 @@
 import "./Home.css";
 import { useState } from "react";
-import Calculatrice from "./Calculatrice";
+
 import linkedin from "../Images/linkedin.png";
 import github from "../Images/signe-github.png";
-import user from "../Images/user.png";
+
 const Home = () => {
   const [sideSelected, setSideSelected] = useState(false);
   const [teamSelected, setTeamSelected] = useState(false);
@@ -75,10 +75,18 @@ const Home = () => {
           </div>
         ) : sideSelected === true ? (
           <div className="project-container">
-            <div className="calculatrice project-box">
-              <Calculatrice />
-            </div>
-            <div className="wargame project-box"></div>
+            <a
+              href="https://alexandresegault.github.io/calculatrice/"
+              target="blank"
+            >
+              <div className="calculatrice project-box"></div>
+            </a>
+            <a
+              href="https://alexandresegault.github.io/warGame/"
+              target="blank"
+            >
+              <div className="wargame project-box"></div>
+            </a>
           </div>
         ) : (
           <div></div>
