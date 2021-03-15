@@ -1,0 +1,17 @@
+.about-container {
+  width: 460px;
+  letter-spacing: 1px;
+  font-size: 200%;
+  background-color: white;
+  padding: 20px 50px 20px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgb(160, 155, 155);
+}
+.about {
+  background-color: #e4e4e4;
+  width: 50vw;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

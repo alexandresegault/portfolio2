@@ -1,0 +1,73 @@
+.skills {
+  background-color: #e4e4e4;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  width: 50vw;
+  cursor: pointer;
+}
+.skills-title {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.skills-container {
+  margin-left: 120px;
+}
+.show-skills {
+  font-size: 300%;
+  margin-left: 20px;
+  margin-top: 10px;
+  transform: rotate(-90deg);
+  opacity: 1;
+  cursor: pointer;
+  transition: all 1s;
+}
+.invisible {
+  font-size: 300%;
+  margin-left: 20px;
+  margin-top: 10px;
+  transform: rotate(90deg);
+  transition: all 1s;
+  cursor: pointer;
+}
+.skills-title h2 {
+  font-size: 300%;
+  font-weight: 300;
+}
+
+#front-end,
+#back-end {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 250px;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgb(160, 155, 155);
+  text-align: center;
+}
+
+.hidden {
+  transform: translate(-1000px);
+  transition: 1s;
+}
+
+.visible {
+  transition: 1s;
+  transform: translate(0px);
+}
+#front-end h3,
+#back-end h3 {
+  margin-top: 15px;
+  font-size: 220%;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 150%;
+  padding: 3px;
+  margin-right: 25px;
+}
